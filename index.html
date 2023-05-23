@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUYC Corp</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .list{
+        display: inline;
+        padding: 15px;
+        margin: 5px;
+      }
+      .container{
+           display: flex;
+           justify-content: space-between;
+           background-color: rgb(214, 183, 136);
+           width: 100vw;
+           height: 14vh;
+      }
+      .search{
+        margin:15px 25px 15px 1px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 7px;
+
+      }
+      .srch{
+        display: inline;
+        margin: 15px;
+        font-size: larger;
+      }
+      .table_main{
+        background-color: rgb(90, 177, 90);
+        height: 80vh;
+        width: 100vw;
+        
+      }
+      .footer{
+        height: 6vh;
+        width: 100vw;
+        color: red;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="list">
+            <li class="li">About</li>
+            <li class="li">Home</li>
+            <li class="li">Car dealer</li>
+        </ul>
+        <div ><P class="srch">search</P><input type="search" class="search" id="search" placeholder="search here for car"></div>
+    </div>
+    <div class="table_main">
+        <h3>Available Car Details :</h3>
+           <table class="table">
+            <thead>
+                <tr>
+                    <th>Car manufacturers</th>
+                    <th>Manufactured year</th>
+                    <th>Price</th>
+                    <th>Colors available</th>
+                    <th>Mileage</th>
+                    <th>Speed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Honda</td>
+                    <td>2020</td>
+                    <td>$20000</td>
+                    <td>red aqua black </td>
+                    <td>30miles/km</td>
+                    <td>200km/hr</td>
+                </tr>
+                <tr>
+                    <td>Maruti</td>
+                    <td>2020</td>
+                    <td>$18000</td>
+                    <td>balck aqua</td>
+                    <td>35miles/km</td>
+                    <td>180km/hr</td>
+                </tr>
+                <tr>
+                    <td>BMW</td>
+                    <td>2020</td>
+                    <td>$250000</td>
+                    <td>balck red</td>
+                    <td>20miles/km</td>
+                    <td>250km/hr</td>
+                </tr>   
+                <tr>
+                    <td>Benze</td>
+                    <td>2021</td>
+                    <td>$250000</td>
+                    <td>balck red</td>
+                    <td>25miles/km</td>
+                    <td>250km/hr</td>
+                </tr>
+                <tr>
+                    <td>Audi</td>
+                    <td>2021</td>
+                    <td>$210000</td>
+                    <td>balck red</td>
+                    <td>30miles/km</td>
+                    <td>200km/hr</td>
+                </tr>                            
+            </tbody>
+           </table>
+    </div>
+    <div class="footer">
+        <p> copy Right "@" are reserved</p>
+    </div>
+</body>
+</html>
